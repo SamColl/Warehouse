@@ -183,9 +183,9 @@ ul.breadcrumb li a {
   }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 550px) {
   .product-list {
-    grid-template-columns: 1fr;
+   grid-template-columns: (1, 1fr);
   }
 }
 
@@ -282,8 +282,8 @@ nav a:visted {
 }
 
 @media only screen and (max-width: 700px) {
-  nav {
-    grid-template-columns: 1fr;
+  nav a {
+    display: block;
   }
 }
 
