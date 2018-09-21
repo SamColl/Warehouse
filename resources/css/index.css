@@ -1,5 +1,8 @@
 .hero {
-  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 2fr 2fr 1fr 1fr;
+  width: 95%;
   height: 21.75rem;
   margin-top: 3rem;
   border-radius: 1.5rem;
@@ -12,12 +15,20 @@
 }
 
 .hero h2 {
-  padding-top: 10rem;
+
   color: hsla(0, 100%, 100%, 1);
   font-family: Helvetica;
-  font-size: inherit;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  background-color: #FF0080;
+  padding: 0.9rem;
 }
 
 .products {
