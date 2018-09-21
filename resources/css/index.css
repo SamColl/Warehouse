@@ -31,6 +31,17 @@
   padding: 0.9rem;
 }
 
+.hero a:hover {
+  color:  #0692C1;
+}
+.hero h2:hover {
+  background-color: white;
+  transition: 1s;
+}
+.hero h2:active {
+  background-color: #FF0080;
+  }
+
 .products {
   padding: 0 5rem 6rem 5rem;
 }
